@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "textmod",
+  "version": "${version}",
+  "name": "textmod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/textmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.alexey.textmod.client.TextmodClient"
+    ],
+    "main": [
+      "com.alexey.textmod.Textmod"
+    ]
+  },
+  "mixins": [
+    "textmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
