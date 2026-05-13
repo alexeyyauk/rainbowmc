@@ -6,6 +6,11 @@
   "mixins": [
   ],
   "client": [
+    "gui.MixinChatScreen",
+    "gui.MixinGuiGraphicsExtractor",
+    "gui.inventory.MixinAbstractContainerScreen",
+    "vertex.MixinBufferBuilder",
+    "vertex.MixinVertexConsumer"
   ],
   "injectors": {
     "defaultRequire": 1
