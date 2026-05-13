@@ -11,7 +11,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.alexey.textmod.client.TextmodClient"
+      "com.alexey.textmod.Textmod"
     ],
     "main": [
       "com.alexey.textmod.Textmod"
