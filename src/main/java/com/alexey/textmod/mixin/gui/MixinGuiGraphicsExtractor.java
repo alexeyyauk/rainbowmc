@@ -125,17 +125,20 @@ public abstract class MixinGuiGraphicsExtractor implements IGuiGraphicsExtractor
             float alpha
                                       )
     {
-        float invW = 1f / this.guiWidth();
-        float invH = 1f / this.guiHeight();
-        this.textmod$rainbowRect(
+        float u0 = 0f;
+        float v0 = 0f;
+        float u1 = 1f;
+        float v1 = 1f;
+        this.textmod$innerRainbowRect(
+                TextureSetup.noTexture(),
                 x,
                 y,
                 x + width,
                 y + 1,
-                x * invW,
-                ( y + 1 ) * invH,
-                ( x + width ) * invW,
-                y * invH,
+                u0,
+                v0,
+                u1,
+                v0,
                 angle,
                 freq,
                 speed,
@@ -143,16 +146,18 @@ public abstract class MixinGuiGraphicsExtractor implements IGuiGraphicsExtractor
                 sat,
                 bright,
                 alpha
-                                );
-        this.textmod$rainbowRect(
+                                     );
+
+        this.textmod$innerRainbowRect(
+                TextureSetup.noTexture(),
                 x,
                 y + height - 1,
                 x + width,
                 y + height,
-                x * invW,
-                ( y + height ) * invH,
-                ( x + width ) * invW,
-                ( y + height - 1 ) * invH,
+                u0,
+                v1,
+                u1,
+                v1,
                 angle,
                 freq,
                 speed,
@@ -160,16 +165,18 @@ public abstract class MixinGuiGraphicsExtractor implements IGuiGraphicsExtractor
                 sat,
                 bright,
                 alpha
-                                );
-        this.textmod$rainbowRect(
+                                     );
+
+        this.textmod$innerRainbowRect(
+                TextureSetup.noTexture(),
                 x,
                 y + 1,
                 x + 1,
                 y + height - 1,
-                x * invW,
-                ( y + height - 1 ) * invH,
-                ( x + 1 ) * invW,
-                ( y + 1 ) * invH,
+                u0,
+                v0,
+                u0,
+                v1,
                 angle,
                 freq,
                 speed,
@@ -177,16 +184,18 @@ public abstract class MixinGuiGraphicsExtractor implements IGuiGraphicsExtractor
                 sat,
                 bright,
                 alpha
-                                );
-        this.textmod$rainbowRect(
+                                     );
+
+        this.textmod$innerRainbowRect(
+                TextureSetup.noTexture(),
                 x + width - 1,
                 y + 1,
                 x + width,
                 y + height - 1,
-                ( x + width - 1 ) * invW,
-                ( y + height - 1 ) * invH,
-                ( x + width ) * invW,
-                ( y + 1 ) * invH,
+                u1,
+                v0,
+                u1,
+                v1,
                 angle,
                 freq,
                 speed,
@@ -194,7 +203,7 @@ public abstract class MixinGuiGraphicsExtractor implements IGuiGraphicsExtractor
                 sat,
                 bright,
                 alpha
-                                );
+                                     );
     }
 
     @Override

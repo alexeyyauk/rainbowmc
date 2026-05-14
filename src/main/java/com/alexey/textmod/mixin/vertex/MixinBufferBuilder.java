@@ -31,7 +31,7 @@ public abstract class MixinBufferBuilder implements IVertexConsumer
         final long pos_data = this.beginElement( CustomVertexData.RAINBOW_POSITION_DATA );
         if ( pos_data != -1L )
         {
-            MemoryUtil.memPutFloat( pos_data, alpha );
+            MemoryUtil.memPutFloat( pos_data, angle );
             MemoryUtil.memPutFloat( pos_data + 4L, freq );
             MemoryUtil.memPutFloat( pos_data + 8L, speed );
             MemoryUtil.memPutFloat( pos_data + 12L, (float) GLFW.glfwGetTime() );
