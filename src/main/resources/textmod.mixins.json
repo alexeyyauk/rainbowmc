@@ -11,7 +11,6 @@
     "gui.inventory.MixinAbstractContainerScreen",
     "gui.buttons.MixinButtonPlain",
     "gui.buttons.MixinAbstractSliderButton",
-    "gui.buttons.MixinEditBox",
     "gui.buttons.MixinCheckbox",
     "gui.buttons.MixinCycleButton",
     "vertex.MixinBufferBuilder",
