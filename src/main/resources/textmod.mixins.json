@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "gui.MixinHotbar",
+    "gui.MixinGui",
     "gui.MixinChatScreen",
     "gui.MixinGuiGraphicsExtractor",
     "gui.components.MixinAbstractButton",
