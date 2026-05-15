@@ -9,10 +9,8 @@
     "gui.MixinChatScreen",
     "gui.MixinGuiGraphicsExtractor",
     "gui.buttons.MixinAbstractSliderButton",
-    "gui.buttons.MixinButtonPlain",
-    "gui.buttons.MixinCheckbox",
-    "gui.buttons.MixinCycleButton",
     "gui.buttons.MixinEditBox",
+    "gui.components.MixinAbstractButton",
     "gui.inventory.MixinAbstractContainerScreen",
     "vertex.MixinBufferBuilder",
     "vertex.MixinVertexConsumer"
