@@ -9,7 +9,7 @@
     "gui.MixinChatScreen",
     "gui.MixinGuiGraphicsExtractor",
     "gui.buttons.MixinAbstractSliderButton",
-    "gui.buttons.MixinEditBox",
+    "gui.components.MixinEditBox",
     "gui.components.MixinAbstractButton",
     "gui.inventory.MixinAbstractContainerScreen",
     "vertex.MixinBufferBuilder",
