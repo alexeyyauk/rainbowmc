@@ -8,9 +8,10 @@
   "client": [
     "gui.MixinChatScreen",
     "gui.MixinGuiGraphicsExtractor",
+    "gui.components.MixinAbstractButton",
+    "gui.components.MixinAbstractScrollArea",
     "gui.components.MixinAbstractSliderButton",
     "gui.components.MixinEditBox",
-    "gui.components.MixinAbstractButton",
     "gui.inventory.MixinAbstractContainerScreen",
     "vertex.MixinBufferBuilder",
     "vertex.MixinVertexConsumer"
