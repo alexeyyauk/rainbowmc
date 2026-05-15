@@ -8,7 +8,7 @@
   "client": [
     "gui.MixinChatScreen",
     "gui.MixinGuiGraphicsExtractor",
-    "gui.buttons.MixinAbstractSliderButton",
+    "gui.components.MixinAbstractSliderButton",
     "gui.components.MixinEditBox",
     "gui.components.MixinAbstractButton",
     "gui.inventory.MixinAbstractContainerScreen",

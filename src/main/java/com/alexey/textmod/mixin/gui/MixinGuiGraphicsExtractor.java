@@ -129,6 +129,44 @@ public abstract class MixinGuiGraphicsExtractor implements IGuiGraphicsExtractor
         float v0 = 0f;
         float u1 = 1f;
         float v1 = 1f;
+        this.textmod$rainbowOutline(
+                x,
+                y,
+                width,
+                height,
+                u0,
+                v0,
+                u1,
+                v1,
+                angle,
+                freq,
+                speed,
+                smooth,
+                sat,
+                bright,
+                alpha
+                                   );
+    }
+
+    @Override
+    public void textmod$rainbowOutline(
+            int x,
+            int y,
+            int width,
+            int height,
+            float u0,
+            float v0,
+            float u1,
+            float v1,
+            float angle,
+            float freq,
+            float speed,
+            boolean smooth,
+            float sat,
+            float bright,
+            float alpha
+                                      )
+    {
         this.textmod$innerRainbowRect(
                 TextureSetup.noTexture(),
                 x,

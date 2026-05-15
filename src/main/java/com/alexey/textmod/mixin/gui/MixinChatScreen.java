@@ -34,7 +34,7 @@ public class MixinChatScreen extends Screen
                 y0,
                 x1,
                 y1,
-                90f,
+                0f,
                 1f,
                 1f,
                 true,
