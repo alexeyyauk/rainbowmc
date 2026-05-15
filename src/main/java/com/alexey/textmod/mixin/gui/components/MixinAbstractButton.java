@@ -54,7 +54,7 @@ public abstract class MixinAbstractButton extends AbstractWidget.WithInactiveMes
                                      )
     {
         boolean hovered = this.overrideRenderHighlightedSprite != null ? this.overrideRenderHighlightedSprite.get() : this.isHoveredOrFocused() ;
-        float bright = this.active && hovered ? 1f : .555f;
+        float bright = this.active && hovered ? 1f : ( this.active ? .555f : .35678f );
         float fillBright = this.active && hovered ? 1f : .6767f;
         float saturation = this.active ? 1f : .555f;
         final var i_graphics = ( (IGuiGraphicsExtractor) instance );
