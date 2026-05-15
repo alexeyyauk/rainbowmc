@@ -68,9 +68,9 @@ public abstract class MixinAbstractButton extends AbstractWidget.WithInactiveMes
                 1f,
                 .5f,
                 true,
-                saturation,
-                fillBright,
-                ( this.alpha * 125f ) / 255f
+                saturation * .56f,
+                fillBright * .78f,
+                this.alpha
                                       );
         i_graphics.textmod$rainbowOutline(
                 x,
