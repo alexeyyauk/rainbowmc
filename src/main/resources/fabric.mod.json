@@ -19,8 +19,9 @@
   ],
   "contact":
   {
-    "homepage" : "https://github.com/alexeyyauk/textmod",
-    "sources" : "https://github.com/alexeyyauk/textmod"
+    "homepage" : "https://github.com/alexeyyauk/rainbowmc",
+    "sources" : "https://github.com/alexeyyauk/rainbowmc",
+    "issues" : "https://github.com/alexeyyauk/rainbowmc/issues"
   },
   "license": "All-Rights-Reserved",
   "icon": "assets/rainbowmc/icon.png",
