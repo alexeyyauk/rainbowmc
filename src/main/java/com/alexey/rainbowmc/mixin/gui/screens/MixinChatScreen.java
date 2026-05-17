@@ -1,4 +1,4 @@
-package com.alexey.rainbowmc.mixin.gui;
+package com.alexey.rainbowmc.mixin.gui.screens;
 
 import com.alexey.rainbowmc.imixin.IGuiGraphicsExtractor;
 import net.minecraft.client.gui.GuiGraphicsExtractor;

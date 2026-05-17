@@ -6,7 +6,6 @@
   "mixins": [
   ],
   "client": [
-    "gui.MixinChatScreen",
     "gui.MixinGui",
     "gui.MixinGuiGraphicsExtractor",
     "gui.components.MixinAbstractButton",
@@ -14,6 +13,8 @@
     "gui.components.MixinAbstractSliderButton",
     "gui.components.MixinEditBox",
     "gui.inventory.MixinAbstractContainerScreen",
+    "gui.screens.MixinChatScreen",
+    "gui.screens.MixinInventoryScreen",
     "renderer.MixinEquipmentLayerRenderer",
     "renderer.MixinGameRenderer",
     "renderer.MixinItemFeatureRenderer",
