@@ -1,11 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "textmod",
+  "id": "rainbowmc",
   "version": "${version}",
-  "name": "textmod",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "name": "Rainbow MC",
+  "description": "not enough rainbows",
+  "authors":
+  [
+    {
+      "name" : "terpusha",
+      "contact":
+      {
+        "discord:" : "@terpusha"
+      }
+    },
+    {
+      "name" : "meowyy"
+    }
+  ],
+  "contact":
+  {
+    "homepage" : "https://github.com/alexeyyauk/textmod",
+    "sources" : "https://github.com/alexeyyauk/textmod"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/textmod/icon.png",
   "environment": "client",
@@ -24,5 +40,12 @@
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
     "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/cwR2QvbnHC"
+      }
+    }
   }
 }
