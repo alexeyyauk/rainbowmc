@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.alexey.rainbowmc.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+  ],
+  "client": [
+    "gui.MixinChatScreen",
+    "gui.MixinGui",
+    "gui.MixinGuiGraphicsExtractor",
+    "gui.components.MixinAbstractButton",
+    "gui.components.MixinAbstractScrollArea",
+    "gui.components.MixinAbstractSliderButton",
+    "gui.components.MixinEditBox",
+    "gui.inventory.MixinAbstractContainerScreen",
+    "renderer.MixinEquipmentLayerRenderer",
+    "renderer.MixinGameRenderer",
+    "renderer.MixinItemFeatureRenderer",
+    "renderer.MixinRenderBuffers",
+    "renderer.MixinShieldSpecialRenderer",
+    "systems.MixinRenderSystem",
+    "vertex.MixinBufferBuilder",
+    "vertex.MixinVertexConsumer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

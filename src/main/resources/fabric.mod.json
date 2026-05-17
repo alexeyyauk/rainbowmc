@@ -23,18 +23,18 @@
     "sources" : "https://github.com/alexeyyauk/textmod"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/textmod/icon.png",
+  "icon": "assets/rainbowmc/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.alexey.textmod.Textmod"
+      "com.alexey.rainbowmc.RainbowMc"
     ],
     "main": [
-      "com.alexey.textmod.Textmod"
+      "com.alexey.rainbowmc.RainbowMc"
     ]
   },
   "mixins": [
-    "textmod.mixins.json"
+    "rainbowmc.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
