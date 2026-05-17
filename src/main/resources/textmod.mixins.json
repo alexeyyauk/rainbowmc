@@ -6,14 +6,20 @@
   "mixins": [
   ],
   "client": [
-    "gui.MixinGui",
     "gui.MixinChatScreen",
+    "gui.MixinGui",
     "gui.MixinGuiGraphicsExtractor",
     "gui.components.MixinAbstractButton",
     "gui.components.MixinAbstractScrollArea",
     "gui.components.MixinAbstractSliderButton",
     "gui.components.MixinEditBox",
     "gui.inventory.MixinAbstractContainerScreen",
+    "renderer.MixinEquipmentLayerRenderer",
+    "renderer.MixinGameRenderer",
+    "renderer.MixinItemFeatureRenderer",
+    "renderer.MixinRenderBuffers",
+    "renderer.MixinShieldSpecialRenderer",
+    "systems.MixinRenderSystem",
     "vertex.MixinBufferBuilder",
     "vertex.MixinVertexConsumer"
   ],
